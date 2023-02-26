@@ -12,6 +12,22 @@ margin: 0;
 width: 400px;
 height: 100px;
 background: #ff0000;
+position:  relative;
+}
+.purple--box {
+width: 40px;
+height: 40px;
+background: #a9004b;
+float: left;
+margin: 20px 0px;
+border: solid 10px #ffffff;
+}
+.middle{
+border-width:10px 0 10px 0;
+}
+.first--container{
+position:absolute;
+right: 20px;
 }
 .green--box {
 width: 150px;
@@ -19,41 +35,27 @@ height: 250px;
 background: #00ff51;
 float: left;
 }
-.purple--box {
-width: 150px;
-height: 50px;
-background: #cc00db;
-}
-.blue--box{
-width: 150px;
-height: 100px;
-background: #0093b7;
-}
-.orange--box{
-width: 100px;
-height: 150px;
-background: #ff9e6b;
-}
 .brown--box{
 width: 250px;
-height: 100px;
+height: 250px;
 background: #8c2727;
 float: left;
+position:  relative;
+}
+.second--container{
+position:absolute;
+top: 40px;
+left: 40px;
+}
+.orange--box{
+width: 140px;
+height: 40px;
+background: #ff863f;
+margin: 10px;
+border: solid 5px #ffffff;
 }
 .yellow--box{
 width: 400px;
 height: 100px;
 background: #ffe600;
-}
-
-.first--box {
-  float: left;
-}
-
-.second--box {
-  float: left;
-}
-
-.container {
-  float: left;
 }
