@@ -26,13 +26,10 @@ margin: 0;
   height: 40px;
   background: #a9004b;
   float: left;
-  margin: 10px;
+  margin: 10px 10px 10px 0px;
 }
 div .purple--box:first-of-type {
-  margin-right: 0px;
-}
-div .purple--box:last-of-type {
-  margin-left: 0px;
+  margin-left: 10px;
 }
 .green--box {
   width: 150px;
@@ -50,24 +47,24 @@ div .purple--box:last-of-type {
 .second--container{
   position:absolute;
   top: 40px;
-  left: 40px;
 }
 .orange--box{
   width: 140px;
   height: 40px;
   background: #ff863f;
-  margin: 10px;
+  margin-left: 40px;
   border: solid 5px #ffffff;
 }
 div .orange--box:first-of-type {
-  margin-top: 0px;
-  margin-left: 0px;
+  margin-left: 40px;
+  margin-bottom: 10px;
   }
 div .orange--box:nth-child(2){
-    margin-left: 0px;
+    margin-left: 40px;
   }
 div .orange--box:last-of-type {
-    margin-left: 0px;
+    margin-left: 40px;
+    margin-top: 10px;
     }
 .yellow--box{
   width: 400px;
