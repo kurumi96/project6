@@ -56,14 +56,9 @@ div .purple--box:first-of-type {
   border: solid 5px #ffffff;
 }
 div .orange--box:first-of-type {
-  margin-left: 40px;
   margin-bottom: 10px;
   }
-div .orange--box:nth-child(2){
-    margin-left: 40px;
-  }
 div .orange--box:last-of-type {
-    margin-left: 40px;
     margin-top: 10px;
     }
 .yellow--box{
